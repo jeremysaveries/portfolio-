@@ -171,3 +171,23 @@ li.lastName{
        color: white;
        padding-bottom: 1em;
     }
+
+    .contactTitle{
+        color: #ffc048;
+        font-family: oswald;
+        font-size :50px 
+    }
+
+    .mailcontainer{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1em;
+        border: solid;
+        width: 187px;
+        height: 134px;
+    }
+    
+    .mailcontainer i{
+        display: flex;
+        gap: 1em;
+    }
