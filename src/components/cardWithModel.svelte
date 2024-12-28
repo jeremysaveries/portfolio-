@@ -50,7 +50,7 @@
   .card {
     width: 300px; /* Largeur fixe pour les cartes */
     border-radius: 15px;
-    background-color: #3c40c6;
+    background-color: #34495e;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     padding: 10px;
