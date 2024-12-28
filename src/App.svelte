@@ -1,6 +1,6 @@
 <script>
   import CardWithModal from "./components/cardWithModel.svelte"; // Assurez-vous que le chemin est correct
-  import EmailButton from "./components/mailModel.svelte";
+  import ContactForm from "./components/contactForm.svelte";
 </script>
 
 <header>
@@ -92,15 +92,8 @@
 
   <section>
     <div class="contactForm">
-      <h2 class="contactTitle">contact</h2>
-      <div class="mailcontainer">
-        <p><i class="bi bi-envelope"></i>email</p>
-        <EmailButton
-          email="saveriesj@gmail.com"
-          buttonText="envoyez un mail "
-          buttonClass="bg-green-500 text-white py-3 px-5 rounded-lg hover:bg-green-600"
-        />
-      </div>
+      <h2 class="contactTitle">contactez moi</h2>
+      <ContactForm />
     </div>
   </section>
 </main>
