@@ -1,5 +1,6 @@
 <script>
   import CardWithModal from "./components/cardWithModel.svelte"; // Assurez-vous que le chemin est correct
+  import EmailButton from "./components/mailModel.svelte";
 </script>
 
 <header>
@@ -63,13 +64,6 @@
       <div class="projets">
         <div class="devProjet">
           <h2 class="projetTittle">mes projets</h2>
-          <div class="filtreProjet">
-            <ul class="filtreList">
-              <li>tous</li>
-              <li>developpement web</li>
-              <li>web design</li>
-            </ul>
-          </div>
         </div>
       </div>
     </section>
@@ -81,7 +75,7 @@
           imageAlt="logo du projet"
           title="site petfoster-connect"
           modalContent="Pet Foster Connect est un site fictif qui permet de mettre en relation des associations de protection animale avec des familles d'accueil. Il utilise Node.js, Express, Sequelize et PostgreSQL pour la gestion des données."
-          modalLinkText="voir le dépôt GitHub"
+          modalLinkText="voir plus"
           modalLink="https://github.com/mon-projet/petfoster-connect"
         />
         <CardWithModal
@@ -95,6 +89,20 @@
       </div>
     </section>
   </div>
+
+  <section>
+    <div class="contactForm">
+      <h2 class="contactTitle">contact</h2>
+      <div class="mailcontainer">
+        <p><i class="bi bi-envelope"></i>email</p>
+        <EmailButton
+          email="saveriesj@gmail.com"
+          buttonText="envoyez un mail "
+          buttonClass="bg-green-500 text-white py-3 px-5 rounded-lg hover:bg-green-600"
+        />
+      </div>
+    </div>
+  </section>
 </main>
 
 <style>
