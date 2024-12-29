@@ -125,4 +125,10 @@
   .modal-link:hover {
     text-decoration: underline;
   }
+
+  @media (max-width: 768px) {
+    .card {
+      width: 200px;
+    }
+  }
 </style>

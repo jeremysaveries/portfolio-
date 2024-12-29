@@ -6,13 +6,13 @@ body{
 
 
 .headerContainer{
-   background-color:#1e272e;
-   display: flex;
-   flex-direction: row;
-   align-items: flex-start;
-   justify-content: space-around;
-   gap: 3em;
-   height: 90px;
+    background-color: #1e272e;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 3em;
+    height: 90px;
 }
 
 .titleHeader{
@@ -71,7 +71,9 @@ li.lastName{
     padding: 2px 5px;
     color: white;
     background:  linear-gradient(to right, #333, #000);
-    font-size: 20px
+    font-size: 20px;
+    position: relative;
+    bottom: 6em;
 }
 
 .présentation{
@@ -88,8 +90,8 @@ li.lastName{
     flex-direction: row;
     justify-content: center;
     position: relative;
-    right: 29em;
-    bottom: 18em;
+    right: 15em;
+    bottom: 23em;
 }
 
 .inputButton{
@@ -98,8 +100,9 @@ li.lastName{
     color: black;
     border-radius: 10px;
     border-color:white;
-   font-style: oswald;
    font-weight: bold;
+   position: relative;
+   top: 15em;
 
     
 }
@@ -123,10 +126,10 @@ li.lastName{
 
 .flexLogo{
     font-size: 40px;
-    position: relative;
-    right: 12em;
-    bottom: 6em;
+    top: 6em;
     display: inline-block;
+    position: relative;
+    left: 1em;
 }
 
 .logoList{
@@ -157,7 +160,7 @@ li.lastName{
 
     .projetTittle{
         color: #ffc048;
-    font-family: oswald;
+        font-family:oswald;
     text-align: center;
     font-size: 50px;
     padding-bottom: 1em;
@@ -191,3 +194,96 @@ li.lastName{
         display: flex;
         gap: 1em;
     }
+
+    .softskillTittle{
+        color:#ffc048 ;
+        font-family:oswald;
+        font-size: 50px;
+        
+    }
+
+    .footerTitle{
+        color: #ffc048 ;
+        padding-top: 4em;
+        font-size: 21px;
+
+    }
+
+    @media (max-width: 768px) {
+
+
+        /*html, body {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+          }*/
+          
+
+          .headerContainer{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+          }
+
+        .présentation{
+            max-width: 600px;
+            color: white;
+           font-size: 9px;
+         padding-top: 2em;
+          margin-right: 2em;
+        }
+
+        .titlePoste{
+            padding-left: 1em;
+            display: flex;
+            position: static;
+            justify-content: flex-start;
+     
+        }
+
+        .postName{
+            font-size: 10px;
+            position: static;
+        }
+        .photo{
+            display: inline-block;
+            max-width: 100%;
+        }
+
+        .contactTitle{
+            margin-top: 1em;  
+        }
+
+        .cardContainer{
+            position: relative;
+             bottom: 3em;
+        }
+
+        .inputContainer{
+            padding-left: 1em;
+            display: flex;
+           flex-direction: row;
+           justify-content: flex-start;
+           position: static;
+           gap: 2em;
+        }
+        .inputButton{
+            height: 64px;
+            width: 76px;
+            font-size: 10px;
+            position: static;
+
+
+        }
+
+        .flexLogo{
+            position: static;
+            font-size: 28px;
+            padding-bottom: 3em
+        }
+        .softskillTittle{
+            font-size: 40px;
+        }
+    }
+        
+    

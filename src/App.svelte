@@ -1,6 +1,7 @@
 <script>
   import CardWithModal from "./components/cardWithModel.svelte"; // Assurez-vous que le chemin est correct
   import ContactForm from "./components/contactForm.svelte";
+  import Softskill from "./components/softskill.svelte";
 </script>
 
 <header>
@@ -9,13 +10,6 @@
       <li class="firstName">jeremy</li>
       <li class="lastName">saveries</li>
     </ul>
-    <nav>
-      <ul class="navBar">
-        <li><a href="Home.html">accueil</a></li>
-        <li><a href="Portfolio.html">mes projets</a></li>
-        <li><a href="Contact.html">Contact</a></li>
-      </ul>
-    </nav>
   </div>
 </header>
 
@@ -28,10 +22,16 @@
     <div class="mainContent">
       <div class="présentation">
         <p>
-          Bonjour, je m'appelle Jérémy. Développeur full-stack JavaScript, je
-          suis également en formation en design web. Si mon profil vous
-          intéresse, n'hésitez pas à télécharger mon CV et à me contacter pour
-          échanger davantage.
+          A 34 ans, je suis actuellement en reconversion pour travailler dans le
+          milieu du développement web. Suite à un bac +2 développeur web à
+          l'école Oclock, j’ai pu acquérir les bases de plusieurs langages web
+          (HTML, CSS, Javascript, ), la gestion de bases de données mais aussi
+          l’utilisation de logiciels tels que Figma que j’utilise régulièrement
+          pour créer des maquettes . J’ai ensuite pu exercer et améliorer ces
+          connaissances avec un stage de 1 mois aux côtés de développeurs web
+          expérimenté. J’aimerais maintenant entreprendre une formation de
+          designer web « Concepteur Designer UX/UI » en alternance toujours à
+          l'école Oclock.
         </p>
       </div>
 
@@ -45,26 +45,35 @@
     </div>
 
     <div class="inputContainer">
-      <button class="inputButton">telecharger mon cv</button>
-    </div>
+      <a
+        href="../public/document/cvjeremysaveries.pdf"
+        download="cvjeremysaveries"
+      >
+        <button class="inputButton">telecharger mon cv</button>
+      </a>
 
-    <div class="flexLogo">
-      <ul class="logoList">
-        <li class="logoLinkedin">
-          <i class="bi bi-linkedin"></i>
-          <a href=""></a>
-        </li>
-        <li class="logoGitHub">
-          <a href=""><i class="bi bi-github"></i></a>
-        </li>
-      </ul>
+      <div class="flexLogo">
+        <ul class="logoList">
+          <li class="logoLinkedin">
+            <a href="www.linkedin.com/in/jérémy-saveries"></a>
+            <i class="fa-brands fa-linkedin"></i>
+          </li>
+          <li class="logoGitHub">
+            <a href="https://github.com/jeremysaveries"
+              ><i class="fa-brands fa-github"></i></a
+            >
+          </li>
+        </ul>
+      </div>
     </div>
+    <section>
+      <h2 class="softskillTittle">mes compétences</h2>
+      <Softskill />
+    </section>
 
     <section>
       <div class="projets">
-        <div class="devProjet">
-          <h2 class="projetTittle">mes projets</h2>
-        </div>
+        <h2 class="projetTittle">mes projets</h2>
       </div>
     </section>
 
@@ -73,18 +82,18 @@
         <CardWithModal
           imageSrc="../public/img/new logo.png"
           imageAlt="logo du projet"
-          title="site petfoster-connect"
+          title="site petfoster connect"
           modalContent="Pet Foster Connect est un site fictif qui permet de mettre en relation des associations de protection animale avec des familles d'accueil. Il utilise Node.js, Express, Sequelize et PostgreSQL pour la gestion des données."
           modalLinkText="voir plus"
           modalLink="https://github.com/mon-projet/petfoster-connect"
         />
         <CardWithModal
-          imageSrc="../public/img/new logo.png"
+          imageSrc="../public/img/gameCollection.png"
           imageAlt="logo d'un autre projet"
-          title="autre projet"
-          modalContent="Voici des détails sur un autre projet passionnant."
+          title="game collection"
+          modalContent="Game Collection est une application dédiée aux passionnés de jeux vidéo. Elle permet de gérer et suivre ses jeux, de marquer sa progression, et d'ajouter des jeux à une collection personnelle"
           modalLinkText="Voir plus"
-          modalLink="https://github.com/mon-projet/petfoster-connect"
+          modalLink=""
         />
       </div>
     </section>
@@ -98,11 +107,19 @@
   </section>
 </main>
 
+<footer>
+  <div class="footerContainer">
+    <h3 class="footerTitle">by jeremy.</h3>
+    <p>© jeremysaveriesdev.com. All rights reserved</p>
+  </div>
+</footer>
+
 <style>
   @import url("../public/css/reset.css");
   @import url("../public/css/style.css");
-  @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css");
   @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+  @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css");
+  @import "@fortawesome/fontawesome-free/css/all.min.css";
 
   .cardContainer {
     display: flex;
