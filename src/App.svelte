@@ -55,8 +55,9 @@
       <div class="flexLogo">
         <ul class="logoList">
           <li class="logoLinkedin">
-            <a href="www.linkedin.com/in/jérémy-saveries"></a>
-            <i class="fa-brands fa-linkedin"></i>
+            <a href="www.linkedin.com/in/jérémy-saveries">
+              <i class="fa-brands fa-linkedin"></i></a
+            >
           </li>
           <li class="logoGitHub">
             <a href="https://github.com/jeremysaveries"
