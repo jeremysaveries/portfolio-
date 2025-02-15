@@ -119,8 +119,8 @@
 </footer>
 
 <style>
-  @import url("../public/css/reset.css");
-  @import url("../public/css/style.css");
+  @import url("./css/reset.css");
+  @import url("./css/style.css");
   @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
   @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css");
   @import "@fortawesome/fontawesome-free/css/all.min.css";
