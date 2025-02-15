@@ -5,6 +5,7 @@ export default defineConfig({
   base: "/jeremysaveries/portfolio-/", // Remplace bien par le nom de ton repo
   plugins: [svelte()],
   build: {
-    outDir: 'dist'  // Assure-toi que les fichiers de build vont dans ce dossier
+    outDir: 'dist', // Répertoire où Vite mettra les fichiers construits
+    emptyOutDir: true, // Assure-toi que le dossier 'dist' est vidé avant de reconstruire
   }
 });
