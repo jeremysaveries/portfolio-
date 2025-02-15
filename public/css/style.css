@@ -73,7 +73,7 @@ li.lastName{
     background:  linear-gradient(to right, #333, #000);
     font-size: 20px;
     position: relative;
-    bottom: 6em;
+    bottom: 9em;
 }
 
 .présentation{
@@ -102,7 +102,7 @@ li.lastName{
     border-color:white;
    font-weight: bold;
    position: relative;
-   top: 15em;
+   top: 17em;
 
     
 }
@@ -126,7 +126,7 @@ li.lastName{
 
 .flexLogo{
     font-size: 40px;
-    top: 6em;
+    top : 266px;
     display: inline-block;
     position: relative;
     left: 1em;

@@ -22,23 +22,26 @@
     <div class="mainContent">
       <div class="présentation">
         <p>
-          A 34 ans, je suis actuellement en reconversion pour travailler dans le
-          milieu du développement web. Suite à un bac +2 développeur web à
-          l'école Oclock, j’ai pu acquérir les bases de plusieurs langages web
-          (HTML, CSS, Javascript, ), la gestion de bases de données mais aussi
-          l’utilisation de logiciels tels que Figma que j’utilise régulièrement
-          pour créer des maquettes . J’ai ensuite pu exercer et améliorer ces
-          connaissances avec un stage de 1 mois aux côtés de développeurs web
-          expérimenté. J’aimerais maintenant entreprendre une formation de
-          designer web « Concepteur Designer UX/UI » en alternance toujours à
-          l'école Oclock.
+          À 34 ans, je suis actuellement en reconversion professionnelle dans le
+          domaine du développement web. Après avoir suivi une formation de
+          développeur web, j'ai acquis une solide maîtrise des langages web tels
+          que HTML, CSS, JavaScript, ainsi que la gestion de bases de données.
+          J'utilise également des outils comme Figma pour concevoir des
+          maquettes et des interfaces utilisateur.Au cours de ma reconversion,
+          j'ai eu l'opportunité d'améliorer mes compétences lors d'un stage de 1
+          mois auprès de développeurs web expérimentés. Actuellement, je
+          recherche un CDI dans le développement web et propose également mes
+          services en freelance pour des missions ponctuelles.Si vous êtes à la
+          recherche d'un collaborateur en CDI ou d'un prestataire pour une
+          mission en freelance, n'hésitez pas à me contacter pour discuter de
+          vos projets.
         </p>
       </div>
 
       <div class="photoProfil">
         <img
           class="photo"
-          src="../public/img/photoprofil.jpg"
+          src="public/img/photoprofil.jpg"
           alt="photo de profil"
         />
       </div>
@@ -46,7 +49,7 @@
 
     <div class="inputContainer">
       <a
-        href="../public/document/cvjeremysaveries.pdf"
+        href="./public/document/cvjeremysaveries.pdf"
         download="cvjeremysaveries"
       >
         <button class="inputButton">telecharger mon cv</button>
@@ -81,7 +84,7 @@
     <section>
       <div class="cardContainer">
         <CardWithModal
-          imageSrc="../public/img/new logo.png"
+          imageSrc="./public/img/new logo.png"
           imageAlt="logo du projet"
           title="site petfoster connect"
           modalContent="Pet Foster Connect est un site fictif qui permet de mettre en relation des associations de protection animale avec des familles d'accueil. Il utilise Node.js, Express, Sequelize et PostgreSQL pour la gestion des données."
@@ -89,7 +92,7 @@
           modalLink="https://github.com/mon-projet/petfoster-connect"
         />
         <CardWithModal
-          imageSrc="../public/img/gameCollection.png"
+          imageSrc="./public/img/gameCollection.png"
           imageAlt="logo d'un autre projet"
           title="game collection"
           modalContent="Game Collection est une application dédiée aux passionnés de jeux vidéo. Elle permet de gérer et suivre ses jeux, de marquer sa progression, et d'ajouter des jeux à une collection personnelle"
