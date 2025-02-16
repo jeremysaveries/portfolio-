@@ -39,36 +39,29 @@
       </div>
 
       <div class="photoProfil">
-        <img
-          class="photo"
-          src="public/img/photoprofil.jpg"
-          alt="photo de profil"
-        />
+        <img class="photo" src="img/photoprofil.jpg" alt="photo de profil" />
       </div>
     </div>
 
     <div class="inputContainer">
-      <a
-        href="./public/document/cvjeremysaveries.pdf"
-        download="cvjeremysaveries"
-      >
-        <button class="inputButton">telecharger mon cv</button>
-      </a>
+      <a href="/document/cvjeremysaveries.pdf" download="cvjeremysaveries.pdf">
+        <button>Télécharger mon CV</button>
 
-      <div class="flexLogo">
-        <ul class="logoList">
-          <li class="logoLinkedin">
-            <a href="www.linkedin.com/in/jérémy-saveries">
-              <i class="fa-brands fa-linkedin"></i></a
-            >
-          </li>
-          <li class="logoGitHub">
-            <a href="https://github.com/jeremysaveries"
-              ><i class="fa-brands fa-github"></i></a
-            >
-          </li>
-        </ul>
-      </div>
+        <div class="flexLogo">
+          <ul class="logoList">
+            <li class="logoLinkedin">
+              <a href="www.linkedin.com/in/jérémy-saveries">
+                <i class="fa-brands fa-linkedin"></i></a
+              >
+            </li>
+            <li class="logoGitHub">
+              <a href="https://github.com/jeremysaveries"
+                ><i class="fa-brands fa-github"></i></a
+              >
+            </li>
+          </ul>
+        </div>
+      </a>
     </div>
     <section>
       <h2 class="softskillTittle">mes compétences</h2>
@@ -84,7 +77,7 @@
     <section>
       <div class="cardContainer">
         <CardWithModal
-          imageSrc="./public/img/new logo.png"
+          imageSrc="/img/new logo.png"
           imageAlt="logo du projet"
           title="site petfoster connect"
           modalContent="Pet Foster Connect est un site fictif qui permet de mettre en relation des associations de protection animale avec des familles d'accueil. Il utilise Node.js, Express, Sequelize et PostgreSQL pour la gestion des données."
@@ -92,7 +85,7 @@
           modalLink="https://github.com/mon-projet/petfoster-connect"
         />
         <CardWithModal
-          imageSrc="./public/img/gameCollection.png"
+          imageSrc="/img/gameCollection.png"
           imageAlt="logo d'un autre projet"
           title="game collection"
           modalContent="Game Collection est une application dédiée aux passionnés de jeux vidéo. Elle permet de gérer et suivre ses jeux, de marquer sa progression, et d'ajouter des jeux à une collection personnelle"
