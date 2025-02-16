@@ -114,6 +114,7 @@ li.lastName{
     border:solid, white;
     border-radius: 50%;
     overflow: hidden;
+    background-image: url("img/photoprofil.jpg");
     
 
      
@@ -121,6 +122,7 @@ li.lastName{
 .photo{
     max-width: 450px;
     display: inline-block;
+   
   
 }
 

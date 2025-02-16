@@ -63,6 +63,7 @@
     border-radius: 10px;
     display: block;
     background-color: white;
+    background-image: "/img/new logo.png";
   }
 
   .card-content {
