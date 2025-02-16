@@ -44,15 +44,15 @@
     </div>
 
     <div class="inputContainer">
-      <a href="/document/cvjeremysaveries.pdf" download="cvjeremysaveries.pdf">
+      <a href="document/cvjeremysaveries.pdf" download="cvjeremysaveries.pdf">
         <button>Télécharger mon CV</button>
 
         <div class="flexLogo">
           <ul class="logoList">
             <li class="logoLinkedin">
               <a href="www.linkedin.com/in/jérémy-saveries">
-                <i class="fa-brands fa-linkedin"></i></a
-              >
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
             </li>
             <li class="logoGitHub">
               <a href="https://github.com/jeremysaveries"
@@ -77,7 +77,7 @@
     <section>
       <div class="cardContainer">
         <CardWithModal
-          imageSrc="/img/new logo.png"
+          imageSrc="img/newlogo.png"
           imageAlt="logo du projet"
           title="site petfoster connect"
           modalContent="Pet Foster Connect est un site fictif qui permet de mettre en relation des associations de protection animale avec des familles d'accueil. Il utilise Node.js, Express, Sequelize et PostgreSQL pour la gestion des données."
@@ -85,7 +85,7 @@
           modalLink="https://github.com/mon-projet/petfoster-connect"
         />
         <CardWithModal
-          imageSrc="/img/gameCollection.png"
+          imageSrc="img/gameCollection.png"
           imageAlt="logo d'un autre projet"
           title="game collection"
           modalContent="Game Collection est une application dédiée aux passionnés de jeux vidéo. Elle permet de gérer et suivre ses jeux, de marquer sa progression, et d'ajouter des jeux à une collection personnelle"
